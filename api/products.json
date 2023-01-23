@@ -1,0 +1,680 @@
+[
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553b5"
+    },
+    "Category": "Non class�"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553b6"
+    },
+    "Category": "Image & son",
+    "Sub_category": "�crans de projection",
+    "Name": "(SQ1B1200200) ORAY Ecran Moteur Square Pro MAT 200 X 200 cm � Bl",
+    "Price": "5230"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553b7"
+    },
+    "Category": "Image & son",
+    "Sub_category": "�crans de projection",
+    "Name": "(MPP03B1180180) Oray 2000 PRO -Ecran Mural CINEFLEX 180X180",
+    "Price": "1010"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553b8"
+    },
+    "Category": "Image & son",
+    "Sub_category": "T�l�viseurs"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553b9"
+    },
+    "Category": "Image & son",
+    "Sub_category": "Vid�o projecteurs"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ba"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Imprimantes",
+    "Name": "Canon Jet d�encre Pixma GSeries G2411 3en1 A4 9 PPM B&W 4800�1200 ppp, 8,8mono/Col 5,0ipm (2313C025AA)",
+    "Price": "1787"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553bb"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Imprimantes",
+    "Name": "HP LaserJet Pro M102a (G3Q34A)",
+    "Price": "1230"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553bc"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Imprimantes",
+    "Name": "HP Laser M255dw Couleur (7KW64A)",
+    "Price": "3040"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553bd"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Imprimantes",
+    "Name": "(C11CG86407) Epson Jet d�encre L3150 Couleur MFP 3en1 A4 R�seau",
+    "Price": "2550"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553be"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Imprimantes",
+    "Name": "(C11CG87403) EPSON EcoTank L3110 A4 3en1 (copy scan print) 33pp",
+    "Price": "2310"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553bf"
+    },
+    "Category": "Imprimantes",
+    "Sub_category": "Consommables",
+    "Name": "Samsung MLT-D108S Black Toner Cartridge (SU785A)",
+    "Price": "1135"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c0"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Antivirus",
+    "Name": "Kaspersky Total Security 2020 5 Postes / 1 An Mul",
+    "Price": "450"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c1"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Antivirus",
+    "Name": "Kaspersky Internet Security 2020 10 Postes / 1 An",
+    "Price": "800"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c2"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Antivirus",
+    "Name": "Kaspersky Antivirus 2020 3 Postes /1 An",
+    "Price": "260"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c3"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Antivirus",
+    "Name": "Kaspersky Internet Security 2020 1 Poste / 1 An Mu",
+    "Price": "150"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c4"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Bureautique"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c5"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Syst�me D�exploitation",
+    "Name": "MS Windows Svr Std 2019 64Bit French 1pk DSP OEI D (P73-07789 )",
+    "Price": "9225"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c6"
+    },
+    "Category": "Logiciels",
+    "Sub_category": "Syst�me D�exploitation",
+    "Name": "MS Win Pro 10 64Bit French 1pk DSP OEI DVD ( FQC-08920)",
+    "Price": "2040"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c7"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "HP 400G6 MT i7-8700 4GB 1TB FreeDos + Ecran 20.7? (7ZW63EA)",
+    "Price": "10872.18"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c8"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "HP 400G7 MT i5-10500 4GB 1TB W10p64 + Ecran P21b (293X5EA)",
+    "Price": "11320.98"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553c9"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "HP 200G4 AiO i3-10110U 4GB 1TB (9UG59EA)",
+    "Price": "7169.58"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ca"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "LENOVO ideacentre A340-22IWL CORE I3-10110U 4GB DD (F0EB00FPFE)",
+    "Price": "6900"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553cb"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "Lenovo V530T (11BH001WFM)",
+    "Price": "4160"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553cc"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "Dell optiplex 3070 (OP3070SFF-I3-9100-U )",
+    "Price": "6030"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553cd"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "HP Pro 300 G3 MT (8VS18EA)",
+    "Price": "6090"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ce"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs De Bureau",
+    "Name": "HP Pro G2 MT (5QL76EA)",
+    "Price": "5780"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553cf"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "HP 840 G7 i5-10210U 14? 8GB 256GB SSD (1J6E1EA)",
+    "Price": "16930.98"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d0"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "LENOVO Thinkpad X390 i7-8565U 13,3 8GB (20Q0000TFE)",
+    "Price": "21452.64"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d1"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "LENOVO Ideapad S145-15IGM CELERON N4000 15,6 4GB 1 (81MX0058FE)",
+    "Price": "4465.56"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d2"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "DELL XPS 13 9310 i7-1185G7 13.4? UHD 16GB 1TB Wn10 (MODENA_ICLU)",
+    "Price": "27706.8"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d3"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "Dell XPS 13 2-in-1 9310 i7-1165G7 13.4P 16GB 512 (CENTENARIO_TGLU )",
+    "Price": "29026.8"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d4"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "LENOVO ThinkPad T14s i5-10210U 14 8 � 256 (20T0000EFE)",
+    "Price": "19740"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d5"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "LENOVO Thinkpad X13 i7-10510U 13,3 8 (20T20009FE)",
+    "Price": "30640"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d6"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "DELL Latitude 3410 i3-10110U 14? HD 4GB 1TB (N001L341014EMEA)",
+    "Price": "5930"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d7"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "HP 15 i3-5005U 15.6? 4GB 500G (F4B78EA)",
+    "Price": "5830"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d8"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Ordinateurs Portables",
+    "Name": "HP 250 G7 i5-1035G1 15.6? 4GB 500GB (197P0EA)",
+    "Price": "6660"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553d9"
+    },
+    "Category": "Pc et Ordinateurs",
+    "Sub_category": "Serveurs",
+    "Name": "DELL PowerEdge R340",
+    "Price": "25550"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553da"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "C�bles & adaptateurs"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553db"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Casque & Speaker",
+    "Name": "Jabra casque GN 1200 CC 2m Coi ( 88011-99)",
+    "Price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553dc"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Casque & Speaker",
+    "Name": "SAMSUNG IN EAR ECOUTEUR GI935 BLANC (EO-IG935BWEGWW)",
+    "Price": "86"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553dd"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Autres"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553de"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Claviers & Souris",
+    "Name": "(910-002235) LOGITECH Wireless Mouse M185 S",
+    "Price": "174"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553df"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "Dell 22 Monitor � P2219H � 54.6cm(21.5?) Black (P2219H-3Y)",
+    "Price": "1930"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e0"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "Dell 24 Monitor-E2420H-60.45 cm (23.8?) Black (E2420H-3Y)",
+    "Price": "1775"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e1"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "Dell 22 Monitor � P2219H � 54.6cm(21.5?) Black (E2020H-3Y)",
+    "Price": "1200"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e2"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "HP Ecran 22f 21.5? (2XN58AA)",
+    "Price": "1896.18"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e3"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "HP Ecran 32s (Cajun Silver) 2XN58AA",
+    "Price": "3018.18"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e4"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Ecran PC",
+    "Name": "SAMSUNG Moniteur 27 pouces CURVED serie 5 1920 x 1 (LC27T550FDMXZN)",
+    "Price": "3075"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e5"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "M�moire RAM",
+    "Name": "(A6951103) Dell 4GB Certified DDR3L-1600",
+    "Price": "1074"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e6"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Onduleur",
+    "Name": "(5E500I) Onduleur Line-Interactive Eaton 5E 500VA",
+    "Price": "645"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e7"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Sacoche",
+    "Name": "(2SC65AA) HP 14.1 Business Slim Top Load",
+    "Price": "395"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e8"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Stockage",
+    "Name": "HPE 1TB 6G SATA 7.2K 3.5in NHP(843266-B21)",
+    "Price": "1060"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553e9"
+    },
+    "Category": "P�riph�riques",
+    "Sub_category": "Stockage",
+    "Name": "ADATA HD330-1TB USB 3.1-Anti choc SLIM BLACK (AHD330-1TU31-CBK )",
+    "Price": "770"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ea"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Firewall"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553eb"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Point D�acc�s"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ec"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Routeurs",
+    "Name": "(TD-W8961N) Modem Routeur ADSL2+ WiFi N 300 Mbps",
+    "Price": "300"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ed"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Switches",
+    "Name": "HP 1820-8G Switch ( J9979A )"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ee"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Switches",
+    "Name": "HPE 1405 5G v3 Switch ( JH407A )",
+    "Price": "609"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ef"
+    },
+    "Category": "R�seaux",
+    "Sub_category": "Switches",
+    "Name": "(TL-SG1008D) Switch de bureau 8 ports Gigabit",
+    "Price": "350"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f0"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "BLOC ALIMENTATION 4 PORT",
+    "Price": "160"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f1"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "CABLE COAXIAL KX6 HAUTE QUALITE +ALIM",
+    "Price": "3"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f2"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "CAMERA AVEC AUDIO INT�GRER REF HAC-HDW1220GP-M",
+    "Price": "270"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f3"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "SPEED DOM HDCI 2 MEGA 25X STARLIGHT REF SD49225I-HC",
+    "Price": "2600"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f4"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "MINIDOME HDCVI 4 MEGA REF HAC-T4A41P",
+    "Price": "270"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f5"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "MINIDOME 2 MEGA METAL HAC-HDW1200M SERIE 4",
+    "Price": "170"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f6"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "XVR 4 PORT XVR4104HS-X H265",
+    "Price": "450"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f7"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "XVR 4 PORT XVR5104HS-X1 H265",
+    "Price": "650"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f8"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "XVR 8 PORT DHI-XVR5108HS-X H265",
+    "Price": "950"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553f9"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Cameras de surveillances",
+    "Name": "ETANCHE 4 MEGA REF DH-HAC-HFW1400TP",
+    "Price": "270"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553fa"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Contr�le d�acc�s"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553fb"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Pointeuse",
+    "Name": "ZKteco F16 terminal de contr�le d�acc�s et gestion de temps",
+    "Price": "1440"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553fc"
+    },
+    "Category": "Syst�me De S�curit�",
+    "Sub_category": "Syst�me D�alarme"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553fd"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "Smartphones & Tablettes",
+    "Name": "Samsung Smartphone A31s",
+    "Price": "2450"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553fe"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "Smartphones & Tablettes",
+    "Name": "Samsung Smartphone A21s",
+    "Price": "1910"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e553ff"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "Smartphones & Tablettes",
+    "Name": "Samsung Smartphone A11",
+    "Price": "1416"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e55400"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "Smartphones & Tablettes",
+    "Name": "(SM-T295NZKAMWD) SAMSUNG TAB A SM-T295 8? QUAD 2 Ghz 2GB / 32Go",
+    "Price": "1750"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e55401"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "Telephone Analogique"
+  },
+  {
+    "_id": {
+      "$oid": "63cebb8824432e94d7e55402"
+    },
+    "Category": "T�l�phonie",
+    "Sub_category": "T�l�phones IP",
+    "Name": "Grandstream GXP1610",
+    "Price": "450"
+  }
+]
