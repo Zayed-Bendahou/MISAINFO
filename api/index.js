@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -5,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(cors('*'));
 mongoose
   .connect('mongodb://127.0.0.1:27017/MISAINFO', {
     useNewUrlParser: true,
@@ -106,6 +107,6 @@ app.delete('/api/deleteProduct', (req, res) => {
   ).then(res.send('deleted!'));
 });
 
-app.listen(3000, () => {
+app.listen(5000, () => {
   console.log('App listening on port //127.0.0.1:27017/MISAINFO!');
 });
