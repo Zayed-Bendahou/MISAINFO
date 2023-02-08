@@ -4,8 +4,7 @@ const Imprimante = ({ ImprimanteData }) => {
   })?.map((elm) => {
     return (
       <div>
-        {elm.Id} <img src={elm.Image} alt="/" /> title{elm.Name} price
-        {elm.Price}
+        {elm.Id} <img src={elm.Image} alt="/" /> {elm.Name} {elm.Price}
       </div>
     );
   });

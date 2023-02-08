@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
 import {
   BrowserRouter as Router,
   Route,
@@ -41,6 +39,7 @@ import Antivirus from './Routes/Logiciels/LogicielsSubCat/Antivirus';
 import Bureautique from './Routes/Logiciels/LogicielsSubCat/Bureautique';
 import OS from './Routes/Logiciels/LogicielsSubCat/OS';
 import axios from 'axios';
+import { Header } from './components/Header';
 
 function App() {
   const [data, setdata] = useState([]);
@@ -52,19 +51,16 @@ function App() {
   console.log(data);
   return (
     <Router>
+      <Header />
       <div className="App">
-        <SearchBar />
-        <NavBar />
         <div className="content">
           <Routes>
             <Route exact path="/home">
               <Home />
             </Route>
-
             <Route exact path="/imprimantes">
               <Imprimantes />
             </Route>
-
             <Route exact path="/imprimantes/imprimantes">
               <Imprimante ImprimanteData={data} />
             </Route>
