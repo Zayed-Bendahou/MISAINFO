@@ -40,6 +40,7 @@ import Bureautique from './Routes/Logiciels/LogicielsSubCat/Bureautique';
 import OS from './Routes/Logiciels/LogicielsSubCat/OS';
 import axios from 'axios';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   const [data, setdata] = useState([]);
@@ -52,6 +53,7 @@ function App() {
   return (
     <Router>
       <Header />
+
       <div className="App">
         <div className="content">
           <Routes>
@@ -187,8 +189,8 @@ function App() {
           </Routes>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }
-
 export default App;

@@ -150,7 +150,7 @@ const NavLinks = () => {
                           {mysublinks.Head}
                         </h1>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600 my-2.5">
+                          <li className="text-sm text-gray-600  my-2.5">
                             <Link
                               to={slink.link}
                               className="hover:text-primary"
