@@ -6,7 +6,7 @@ const NavLinks = () => {
   const [subHeading, setSubHeading] = useState('');
   const links = [
     {
-      name: 'Tous les Produits',
+      name: 'Tous les produits',
       submenu: true,
       sublinks: [
         {
@@ -113,10 +113,10 @@ const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div>
-          <div className="px-3 text-left md:cursor-pointer group">
+        <div className="z-10 ">
+          <div className=" text-left md:cursor-pointer group ">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+              className="py-5 flex justify-between items-center hover:text-blue md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading('');
                 setSubHeading('');
@@ -151,10 +151,7 @@ const NavLinks = () => {
                         </h1>
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm text-gray-600  my-2.5">
-                            <Link
-                              to={slink.link}
-                              className="hover:text-primary"
-                            >
+                            <Link to={slink.link} className="hover:text-blue">
                               {slink.name}
                             </Link>
                           </li>

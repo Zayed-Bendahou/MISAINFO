@@ -5,7 +5,7 @@ import {
   Route,
   Switch as Routes,
 } from 'react-router-dom';
-import Home from './Routes/Home';
+import Home from './Pages/Home';
 import Imprimantes from './Routes/Imprimantes/Imprimantes';
 import Imprimante from './Routes/Imprimantes/SubCatImpri/Imprimante';
 import Consommables from './Routes/Imprimantes/SubCatImpri/Consommables';
@@ -39,8 +39,9 @@ import Antivirus from './Routes/Logiciels/LogicielsSubCat/Antivirus';
 import Bureautique from './Routes/Logiciels/LogicielsSubCat/Bureautique';
 import OS from './Routes/Logiciels/LogicielsSubCat/OS';
 import axios from 'axios';
-import { Header } from './components/Header';
+import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
+import { ContactUs } from './Pages/ContactUs';
 
 function App() {
   const [data, setdata] = useState([]);
@@ -53,12 +54,14 @@ function App() {
   return (
     <Router>
       <Header />
-
       <div className="App">
         <div className="content">
           <Routes>
-            <Route exact path="/home">
+            <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/Contact">
+              <ContactUs />
             </Route>
             <Route exact path="/imprimantes">
               <Imprimantes />

@@ -5,16 +5,16 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavScrollExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="white" expand="lg">
       <Container fluid className="justify-content-center">
-        <Form className="d-flex ">
+        <Form className="d-flex w-50 ">
           <Form.Control
             type="search"
-            placeholder="Search"
+            placeholder="Chercher un produit"
             className="me-2"
             aria-label="Search"
           />
-          <Button variant="outline-primary">Search</Button>
+          <Button variant="outline-info">Chercher</Button>
         </Form>
       </Container>
     </Navbar>

@@ -1,0 +1,25 @@
+.row {
+  padding-top: 7rem;
+  margin-right: 0%;
+  margin-left: 40px;
+  padding-bottom: 2rem;
+}
+
+.product-thumb2 img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 669px) {
+  .product {
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .product {
+    width: 355px;
+  }
+}
