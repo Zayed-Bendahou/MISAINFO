@@ -42,6 +42,8 @@ import axios from 'axios';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 import { ContactUs } from './Pages/ContactUs';
+import { Devis } from './Pages/Devis';
+import Product from './components/Productspage/Product';
 
 function App() {
   const [data, setdata] = useState([]);
@@ -60,134 +62,111 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route exact path="/devis">
+              <Devis />
+            </Route>
             <Route exact path="/Contact">
               <ContactUs />
             </Route>
+            \
             <Route exact path="/imprimantes">
               <Imprimantes />
             </Route>
             <Route exact path="/imprimantes/imprimantes">
               <Imprimante ImprimanteData={data} />
             </Route>
-
             <Route exact path="/imprimantes/consommables">
               <Consommables ConsommablesData={data} />
             </Route>
-
             <Route exact path="/réseaux/firewall">
               <Firewall FirewallData={data} />
             </Route>
-
             <Route exact path="/réseaux/point_dacces">
               <PointDaccès PointDaccèsData={data} />
             </Route>
-
             <Route exact path="/réseaux/routeurs">
               <Routeurs RouteursData={data} />
             </Route>
-
             <Route exact path="/réseaux/switches">
               <Switches SwitchesData={data} />
             </Route>
-
             <Route exact path="/périphériques/autres">
               <Autres AutresData={data} />
             </Route>
-
             <Route exact path="/périphériques/câbles&adaptateurs">
               <CâblesAdaptateurs CâblesAdaptateursData={data} />
             </Route>
-
             <Route exact path="/périphériques/casque&speaker">
               <CasqueSpeaker CasqueSpeakerData={data} />
             </Route>
-
             <Route exact path="/périphériques/clavier&souris">
               <ClavierSouris ClavierSourisData={data} />
             </Route>
-
             <Route exact path="/périphériques/écranpc">
               <ÉcranPC ÉcranPCData={data} />
             </Route>
-
             <Route exact path="/périphériques/mémoireram">
               <MémoireRAM MémoireRAMData={data} />
             </Route>
-
             <Route exact path="/périphériques/onduleur">
               <Onduleur OnduleurData={data} />
             </Route>
-
             <Route exact path="/périphériques/sacoche">
               <Sacoche SacocheData={data} />
             </Route>
-
             <Route exact path="/périphériques/stockage">
               <Stockage StockageData={data} />
             </Route>
-
             <Route exact path="/Téléphonie/smartphones&tablettes">
               <SmartphonesEtTablettes SmartphonesEtTablettesData={data} />
             </Route>
-
             <Route exact path="/Téléphonie/téléphoneanalogique">
               <TéléphoneAnalogique TéléphoneAnalogiqueData={data} />
             </Route>
-
             <Route exact path="/Téléphonie/téléphoneip">
               <TéléphoneIP TéléphoneIPData={data} />
             </Route>
-
             <Route exact path="/pc/ordinateursportables">
               <OrdinateursPortables OrdinateursPortablesData={data} />
             </Route>
-
             <Route exact path="/pc/ordinateursdebureau">
               <OrdinateursDeBureau OrdinateursDeBureauData={data} />
             </Route>
-
             <Route exact path="/pc/serveurs">
               <Serveurs ServeursData={data} />
             </Route>
-
             <Route exact path="/image&son/écransdeprojection">
               <ÉcransDeProjection ÉcransDeProjectionData={data} />
             </Route>
-
             <Route exact path="/image&son/téléviseurs">
               <Téléviseurs TéléviseursData={data} />
             </Route>
-
             <Route exact path="/image&son/vidéoprojecteurs">
               <VidéoProjecteurs VidéoProjecteursData={data} />
             </Route>
-
             <Route exact path="/systèmedesécurité/cameras">
               <Cameras CamerasData={data} />
             </Route>
-
             <Route exact path="/systèmedesécurité/contrôledacces">
               <ContrôleDacces ContrôleDaccesData={data} />
             </Route>
-
             <Route exact path="/systèmedesécurité/pointeuse">
               <Pointeuse PointeuseData={data} />
             </Route>
-
             <Route exact path="/systèmedesécurité/systèmedalarme">
               <SystèmeDalarme SystèmeDalarmeData={data} />
             </Route>
-
             <Route exact path="/logiciels/antivirus">
               <Antivirus AntivirusData={data} />
             </Route>
-
             <Route exact path="/logiciels/bureautique">
               <Bureautique BureautiqueData={data} />
             </Route>
-
             <Route exact path="/logiciels/os">
               <OS OSData={data} />
+            </Route>
+            <Route exact path="/product/:categorie/:subcategorie/:id">
+              <Product productData={data} />
             </Route>
           </Routes>
         </div>

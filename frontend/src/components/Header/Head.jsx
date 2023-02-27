@@ -3,7 +3,7 @@ import React from 'react';
 export const Head = () => {
   return (
     <>
-      <section className={`bg-blue p-0 box-border`}>
+      <section className={`bg-cyan-600 p-0 box-border`}>
         <div className="text-base text-white mx-2.5">
           <ul className="mx-5 flex justify-around">
             <div>

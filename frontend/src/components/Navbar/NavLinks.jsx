@@ -55,6 +55,26 @@ const NavLinks = () => {
           ],
         },
         {
+          Head: 'Périphériques',
+          sublink: [
+            {
+              name: 'Câbles & Adaptateurs',
+              link: '/périphériques/câbles&adaptateurs',
+            },
+            { name: 'Casque & Speaker', link: '/périphériques/casque&speaker' },
+            {
+              name: 'Claviers & Souris',
+              link: '/périphériques/clavier&souris',
+            },
+            { name: 'Écran PC', link: '/périphériques/écranpc' },
+            { name: 'Mémoire RAM', link: '/périphériques/mémoireram' },
+            { name: 'Stockage', link: '/périphériques/stockage' },
+            { name: 'Onduleur', link: '/périphériques/onduleur' },
+            { name: 'Sacoche', link: '/périphériques/sacoche' },
+            { name: 'Autres', link: '/périphériques/autres' },
+          ],
+        },
+        {
           Head: 'Logiciels',
           sublink: [
             { name: 'Antivirus', link: '/logiciels/antivirus' },
@@ -80,26 +100,7 @@ const NavLinks = () => {
             },
           ],
         },
-        {
-          Head: 'Périphériques',
-          sublink: [
-            {
-              name: 'Câbles & Adaptateurs',
-              link: '/périphériques/câbles&adaptateurs',
-            },
-            { name: 'Casque & Speaker', link: '/périphériques/casque&speaker' },
-            {
-              name: 'Claviers & Souris',
-              link: '/périphériques/clavier&souris',
-            },
-            { name: 'Écran PC', link: '/périphériques/écranpc' },
-            { name: 'Mémoire RAM', link: '/périphériques/mémoireram' },
-            { name: 'Stockage', link: '/périphériques/stockage' },
-            { name: 'Onduleur', link: '/périphériques/onduleur' },
-            { name: 'Sacoche', link: '/périphériques/sacoche' },
-            { name: 'Autres', link: '/périphériques/autres' },
-          ],
-        },
+
         {
           Head: 'Imprimantes',
           sublink: [
@@ -113,10 +114,10 @@ const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div className="z-10 ">
+        <div className="z-50 ">
           <div className=" text-left md:cursor-pointer group ">
             <h1
-              className="py-5 flex justify-between items-center hover:text-blue md:pr-0 pr-5 group"
+              className="py-0 flex justify-between items-center hover:text-cyan-600 md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading('');
                 setSubHeading('');
@@ -136,22 +137,27 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-40 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-29 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div
-                      className="w-4 h-4 left-3 border-t border-l border-blue absolute 
+                      className="w-4 h-4 left-3 border-t border-l border-cyan-600 absolute 
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 border-x border-y border-blue grid grid-cols-3 gap-4">
+                  <div className="bg-white p-4 border-x border-y border-cyan-600 grid grid-cols-4 gap-4">
                     {link.sublinks.map((mysublinks) => (
                       <div>
-                        <h1 className="text-lg font-semibold">
-                          {mysublinks.Head}
-                        </h1>
+                        <Link to={mysublinks.Head}>
+                          <h1 className="text-lg font-semibold">
+                            {mysublinks.Head}
+                          </h1>
+                        </Link>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600  my-2.5">
-                            <Link to={slink.link} className="hover:text-blue">
+                          <li className="text-sm text-gray-600  my-2">
+                            <Link
+                              to={slink.link}
+                              className="hover:text-cyan-600"
+                            >
                               {slink.name}
                             </Link>
                           </li>

@@ -7,10 +7,14 @@ import { useState } from 'react';
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white border-b border-t border-blue">
+    <nav className="bg-white border-b border-t border-cyan-600">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between ">
-          <img src={Misalogo} alt="Logo" className="md:cursor-pointer h-10" />
+          <img
+            src={Misalogo}
+            alt="Logo"
+            className="md:cursor-pointer h-10 -my-5"
+          />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
@@ -18,22 +22,24 @@ const NavBar = () => {
         <ul className=" md:flex hidden items-center gap-8  ">
           <NavLinks />
           <li className="flex ">
-            <Link to="/" className="py-7 px-3 hover:text-blue ">
+            <Link to="/" className="py-0 px-3 hover:text-cyan-600">
               Accueil
             </Link>
-            <Link to="/" className="py-7 px-3 hover:text-blue ">
+            <Link to="/" className="py-0 px-3 hover:text-cyan-600 ">
               Promotions %
             </Link>
-            <Link to="/" className="py-7 px-3  hover:text-blue">
+            <Link to="/" className="py-0 px-3  hover:text-cyan-600">
               À propos
             </Link>
-            <Link to="/Contact" className="py-7 px-3 hover:text-blue ">
+            <Link to="/Contact" className="py-0 px-3 hover:text-cyan-600">
               Contactez-nous
             </Link>
           </li>
         </ul>
         <div className="md:block hidden">
-          <Button />
+          <Link to="/Devis">
+            <Button />
+          </Link>
         </div>
         {/* Mobile Nav  */}
         <ul

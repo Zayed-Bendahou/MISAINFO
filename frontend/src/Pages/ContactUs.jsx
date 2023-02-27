@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-
+import './Contact.css';
 export const ContactUs = () => {
   const form = useRef();
-
+  const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,24 +22,47 @@ export const ContactUs = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
+    showResult(true);
   };
   return (
-    <div className="">
-      <form
-        ref={form}
-        onSubmit={sendEmail}
-        className="flex py-5 gap-5 justify-center"
-      >
-        <label>Nom et prénom</label>
-        <input type="text" name="user_name" />
-        <label>E-mail</label>
-        <input type="email" name="user_email" />
-        <label>Sujet</label>
-        <input type="text" name="subject" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" className="bg-blue h-20 w-20 " />
-      </form>
+    <div class="contactus" id="contact">
+      <div class="contactOverlay">
+        <div class="container">
+          <div class="form">
+            <form class="formMain" action="" onSubmit="">
+              <div class="formWord">
+                <h2 className="mb-[10%] font-sans font-bold text-4xl ">
+                  Envoyer nous un message
+                </h2>
+                <span>Nom complet</span>
+                <br />
+                <input class="input100" type="text" name="fullName" required />
+                <br />
+                <span>Numéro de téléphone</span>
+                <br />
+                <input class="input100" type="text" name="phone" required />
+                <br />
+                <span>E-mail</span>
+                <br />
+                <input class="input100" type="text" name="email" required />
+                <br />
+              </div>
+              <div class="formWord2">
+                <span>Message</span>
+                <br />
+                <textarea name="message" required></textarea>
+                <br />
+                <button className="mt-[0%] font-bold rounded-md w-48 h-14 bg-zinc-500 border-0 text-white">
+                  Envoyer
+                </button>
+
+                <div class="row"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
