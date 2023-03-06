@@ -1,16 +1,16 @@
 import React from 'react';
-import Carouselcontainer from '../components/Home/Carousel';
 import Carouselcontainer2 from '../components/Home/Carousel2';
 import { ProductsContainer } from '../components/Home/ProductsContainer';
-import { ProductsContainer2 } from '../components/Home/ProductsContainer2';
 import { Slider } from '../components/Home/Slider';
+import { Servicebanner } from '../components/Home/Servicebanner';
+import CarouselMain from '../components/Home/CarouselMain';
 const Home = () => {
   return (
     <>
       <Slider />
+      <Servicebanner />
+      <CarouselMain />
       <ProductsContainer />
-      <Carouselcontainer />
-      <ProductsContainer2 />
       <Carouselcontainer2 />
     </>
   );

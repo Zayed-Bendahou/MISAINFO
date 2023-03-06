@@ -1,7 +1,8 @@
-import { ProductConatinerDataSubCat } from '../../../components/Productspage/ProductContainerDataSubCat';
+import { Link } from "react-router-dom";
+import { ProductConatinerDataSubCat } from "../../ProductConatinerDataSubCat";
 
 const OrdinateursPortables = ({ OrdinateursPortablesData }) => {
-  const subcat = 'Ordinateurs Portables';
+  const subcat = "Ordinateurs Portables";
   return (
     <div className="my-20">
       <div className="grid grid-flow-row grid-cols-1 md:grid-clos-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mx-4">

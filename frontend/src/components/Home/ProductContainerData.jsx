@@ -27,7 +27,7 @@ export const ProductContainerData = () => {
             <Link
               to=""
               className="bg-gradient-to-r from-blue to-pink-500 rounded-full py-2 px-4 my-2 text-sm text-white hover:bg-pink-600
-           flex-row justify-center my-2  hover:from-blue hover:to-blue flex flex-row justify-center"
+           flex-row justify-center   hover:from-blue hover:to-blue flex flex-row justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ export const ProductContainerData = () => {
             <Link
               to=""
               className="bg-gradient-to-r from-blue to-pink-500 rounded-full py-2 px-4 my-2 text-sm text-white hover:bg-pink-600
-           flex-row justify-center my-2  hover:from-blue hover:to-blue flex flex-row justify-center"
+           flex-row justify-center  hover:from-blue hover:to-blue flex "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

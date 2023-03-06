@@ -114,10 +114,10 @@ const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div className="z-50 ">
+        <div className="z-72 ">
           <div className=" text-left md:cursor-pointer group ">
             <h1
-              className="py-0 flex justify-between items-center hover:text-cyan-600 md:pr-0 pr-5 group"
+              className=" flex justify-between items-center hover:text-cyan-600  md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading('');
                 setSubHeading('');
@@ -137,7 +137,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-29 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-27 -my-4 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 border-t border-l border-cyan-600 absolute 
@@ -146,7 +146,7 @@ const NavLinks = () => {
                   </div>
                   <div className="bg-white p-4 border-x border-y border-cyan-600 grid grid-cols-4 gap-4">
                     {link.sublinks.map((mysublinks) => (
-                      <div>
+                      <div className="border-b">
                         <Link to={mysublinks.Head}>
                           <h1 className="text-lg font-semibold">
                             {mysublinks.Head}

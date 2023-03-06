@@ -47,16 +47,17 @@
 .btn-custom {
   cursor: pointer;
   text-align: center;
-  background-color: #22b2ed;
+  background-color: #00acc1;
   font-size: 14px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   padding: 12px 30px;
   transition: 0.3s;
   text-transform: uppercase;
+  color: white;
 }
 .btn .primary:hover {
-  background-color: rgb(64, 63, 63);
+  background-color: #009688;
 }
 .btn .second {
   background-color: white;

@@ -6,7 +6,7 @@ export const ProductsContainer = () => {
     <div className="my-20">
       <div className="flex flex-row justify-between mx-5 my-5">
         <Link className="ml-5 text-2xl font-semibold " to="/">
-          Nouveautés:
+          Promotions:
         </Link>
         <Link className="mr-5 text-2xl flex flex-row font-semibold" to="/">
           Voir tout

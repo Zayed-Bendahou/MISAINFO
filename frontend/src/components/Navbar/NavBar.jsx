@@ -2,45 +2,60 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import NavLinks from './NavLinks';
-import Misalogo from './Misalogo.png';
+// import Misalogo from './Misalogo.png';
 import { useState } from 'react';
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white border-b border-t border-cyan-600">
-      <div className="flex items-center font-medium justify-around">
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between ">
-          <img
+    <nav className="bg-white border-b border-gray-300">
+      <div className="flex items-center font-semibold justify-around ">
+        <div className=" p-0 md:w-auto w-full flex justify-between ">
+          {/* <img
             src={Misalogo}
             alt="Logo"
-            className="md:cursor-pointer h-10 -my-5"
-          />
+            className="md:cursor-pointer h-30 py-5 absolute top-5 left-3 border-r border-cyan-600 "
+          /> */}
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
         </div>
-        <ul className=" md:flex hidden items-center gap-8  ">
-          <NavLinks />
+        <ul className=" md:flex hidden text-2xl px-24 py-8 border-t border-gray-300 ">
           <li className="flex ">
-            <Link to="/" className="py-0 px-3 hover:text-cyan-600">
+            <Link to="/Devis" className="z-50">
+              <NavLinks />
+            </Link>
+            <Link
+              to="/"
+              className="  ml-8 mr-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+            >
               Accueil
             </Link>
-            <Link to="/" className="py-0 px-3 hover:text-cyan-600 ">
+            <Link
+              to="/"
+              className=" mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+            >
               Promotions %
             </Link>
-            <Link to="/" className="py-0 px-3  hover:text-cyan-600">
+            <Link
+              to="/"
+              className="mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+            >
               À propos
             </Link>
-            <Link to="/Contact" className="py-0 px-3 hover:text-cyan-600">
+            <Link
+              to="/Contact"
+              className=" mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+            >
               Contactez-nous
             </Link>
+            <div className="md:block hidden text-base ml-12 px-3">
+              <Link to="/Devis">
+                <Button />
+              </Link>
+            </div>
           </li>
         </ul>
-        <div className="md:block hidden">
-          <Link to="/Devis">
-            <Button />
-          </Link>
-        </div>
+
         {/* Mobile Nav  */}
         <ul
           className={`md:hidden bg-white fixed w-full h-auto bottom-0 py-0 pl-4 duration-500 ${
