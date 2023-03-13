@@ -15,15 +15,15 @@ const Carouselcontainer = ({ Data }) => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 4,
+      items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -44,7 +44,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product ">
               <div className="product-thumb">
                 <Link to="/product/Pc%20et%20Ordinateurs/Ordinateurs%20Portables/63ea1aadc03f8858c583d3c8">
-                  <img src={p1} alt="" />
+                  <img src={p1} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -72,7 +72,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Image%20&%20son/Écrans%20de%20projection/63ea1aadc03f8858c583d3ae">
-                  <img src={p2} alt="" />
+                  <img src={p2} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -100,7 +100,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="">
-                  <img src={p3} alt="" />
+                  <img src={p3} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -128,7 +128,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Réseaux/Switches/63ea1aadc03f8858c583d3e7">
-                  <img src={p4} alt="" />
+                  <img src={p4} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -156,7 +156,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Périphériques/Claviers%20&%20Souris/63ea1aadc03f8858c583d3d6">
-                  <img src={p5} alt="" />
+                  <img src={p5} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -184,7 +184,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Logiciels/Antivirus/63ea1aadc03f8858c583d3b8">
-                  <img src={p6} alt="" />
+                  <img src={p6} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -212,7 +212,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Système%20De%20Sécurité/Cameras%20de%20surveillances/63ea1aadc03f8858c583d3ec">
-                  <img src={p7} alt="" />
+                  <img src={p7} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
@@ -240,7 +240,7 @@ const Carouselcontainer = ({ Data }) => {
             <div className="product">
               <div className="product-thumb">
                 <Link to="/product/Imprimantes/Imprimantes/63ea1aadc03f8858c583d3b5">
-                  <img src={p8} alt="" />
+                  <img src={p8} alt="" class="pic" />
                 </Link>
               </div>
               <div className="product-body">
