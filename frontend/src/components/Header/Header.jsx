@@ -1,7 +1,7 @@
 import React from 'react';
 import { Head } from './Head';
 import NavBar from '../Navbar/NavBar';
-import SearchBar from '../SearchBar';
+import SearchBar from './SearchBar';
 import Misalogo from '../Navbar/Misalogo.png';
 export const Header = () => {
   return (

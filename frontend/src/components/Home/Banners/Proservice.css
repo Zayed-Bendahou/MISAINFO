@@ -1,0 +1,16 @@
+.container {
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-image: url('./bg2.jpg');
+  border-radius: 1rem;
+  transition: all 0.3s;
+  filter: brightness(0.8);
+}
+
+.container:hover {
+  transform: scale(1.2);
+  filter: brightness(1);
+  overflow: hidden;
+}

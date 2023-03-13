@@ -131,17 +131,17 @@ const NavLinks = () => {
                   }`}
                 ></ion-icon>
               </span>
-              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 ">
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
             </h1>
             {link.submenu && (
               <div>
-                <div className="absolute top-27 -my-4 hidden group-hover:md:block hover:md:block">
+                <div className="absolute top-27 -my-4 hidden group-hover:md:block hover:md:block ">
                   <div className="py-3">
                     <div
                       className="w-4 h-4 left-3 border-t border-l border-cyan-600 absolute 
-                    mt-1 bg-white rotate-45"
+                    mt-1 bg-white rotate-45 "
                     ></div>
                   </div>
                   <div className="bg-white p-4 border-x border-y border-cyan-600 grid grid-cols-4 gap-4">

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 export const ProductsContainer = () => {
   return (
     <div className="my-20">
-      <div className="flex flex-row justify-between mx-5 my-5">
-        <Link className="ml-5 text-2xl font-semibold " to="/">
+      <div className="flex flex-row justify-between pb-2 mx-5 my-5 border-b border-stone-400">
+        <Link className=" text-2xl font-semibold " to="/">
           Promotions:
         </Link>
-        <Link className="mr-5 text-2xl flex flex-row font-semibold" to="/">
+        <Link className=" text-2xl flex flex-row font-semibold" to="/">
           Voir tout
           <svg
             xmlns="http://www.w3.org/2000/svg"

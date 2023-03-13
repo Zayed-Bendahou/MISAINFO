@@ -2,36 +2,36 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import NavLinks from './NavLinks';
-// import Misalogo from './Misalogo.png';
+import Misalogo from './Misalogo.png';
 import { useState } from 'react';
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white border-b border-gray-300">
-      <div className="flex items-center font-semibold justify-around ">
-        <div className=" p-0 md:w-auto w-full flex justify-between ">
-          {/* <img
+    <nav className="bg-white border-b border-gray-300 ">
+      <div className=" font-semibold  ">
+        <div className="  md:w-auto ">
+          <img
             src={Misalogo}
             alt="Logo"
-            className="md:cursor-pointer h-30 py-5 absolute top-5 left-3 border-r border-cyan-600 "
-          /> */}
+            className="md:cursor-pointer md:hidden  "
+          />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
         </div>
-        <ul className=" md:flex hidden text-2xl px-24 py-8 border-t border-gray-300 ">
+        <ul className=" md:flex hidden text-xl px-36 py-4 border-t border-gray-300 justify-evenly">
           <li className="flex ">
             <Link to="/Devis" className="z-50">
               <NavLinks />
             </Link>
             <Link
               to="/"
-              className="  ml-8 mr-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+              className="  ml-8 mr-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4 "
             >
               Accueil
             </Link>
             <Link
-              to="/"
+              to="/Promo"
               className=" mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
             >
               Promotions %
@@ -44,11 +44,11 @@ const NavBar = () => {
             </Link>
             <Link
               to="/Contact"
-              className=" mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+              className=" mx-10 pr-1  hover:text-cyan-600 hover:underline hover:underline-offset-4"
             >
               Contactez-nous
             </Link>
-            <div className="md:block hidden text-base ml-12 px-3">
+            <div className="md:block hidden text-base ml-12 px-4 -mt-1">
               <Link to="/Devis">
                 <Button />
               </Link>

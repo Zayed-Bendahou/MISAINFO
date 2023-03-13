@@ -1,0 +1,10 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url('./Loca.PNG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(1);
+  left: 5px;
+}

@@ -15,6 +15,10 @@ module.exports = {
         gray2: '#E3E8EE',
         cyan: colors.cyan,
         teal: colors.teal,
+        red: colors.red,
+      },
+      backgroundimage: {
+        techbg: "url('src/components/Home/techbg.png')",
       },
     },
   },

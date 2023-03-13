@@ -16,11 +16,15 @@
 .product-thumb img {
   width: 100%;
   height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  
 }
 
 .title h6 {
   margin-bottom: 10px;
-  font-size: 16px;
+  margin-top:10px ;
+  font-size: 13px;
   font-family: 'Poppins', sans-serif;
   color: black;
 }

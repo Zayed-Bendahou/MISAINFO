@@ -44,7 +44,7 @@ import { Footer } from './components/Footer/Footer';
 import { ContactUs } from './Pages/ContactUs';
 import { Devis } from './Pages/Devis';
 import Product from './components/Productspage/Product';
-
+import Promo from './Pages/Promo';
 function App() {
   const [data, setdata] = useState([]);
   useEffect(() => {
@@ -68,7 +68,6 @@ function App() {
             <Route exact path="/Contact">
               <ContactUs />
             </Route>
-            \
             <Route exact path="/imprimantes">
               <Imprimantes />
             </Route>
@@ -167,6 +166,9 @@ function App() {
             </Route>
             <Route exact path="/product/:categorie/:subcategorie/:id">
               <Product productData={data} />
+            </Route>
+            <Route exact path="/promo">
+              <Promo productData={data} />
             </Route>
           </Routes>
         </div>
