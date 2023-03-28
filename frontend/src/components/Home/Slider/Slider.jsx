@@ -2,6 +2,7 @@ import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import './Slider.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
+
 export const Slider = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (

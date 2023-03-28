@@ -131,8 +131,9 @@ export const ContactUs = () => {
                     name="location"
                     class="text-teal-300 text-xl"
                   ></ion-icon>
-                  <span className="text-sm">
-                    Rue Ait Ourir Boulevard Moulay Youssef Bourgogne Casablanca
+                  <span>
+                    Nr 58 Bd Zouhair Mohamed Najjar Hay al <br />
+                    madrassa Hay Mohammadi - Casablanca, Morocco
                   </span>
                 </div>
               </div>

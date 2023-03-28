@@ -19,9 +19,9 @@ const NavBar = () => {
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
         </div>
-        <ul className=" md:flex hidden text-xl px-36 py-4 border-t border-gray-300 justify-evenly">
+        <ul className=" md:flex hidden text-xl px-36 py-4 border-t border-gray-300 ">
           <li className="flex ">
-            <Link to="/Devis" className="z-50">
+            <Link to="/Devis" className="z-50 ">
               <NavLinks />
             </Link>
             <Link

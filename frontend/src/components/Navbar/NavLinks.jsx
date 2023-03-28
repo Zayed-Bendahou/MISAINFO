@@ -114,7 +114,7 @@ const NavLinks = () => {
   return (
     <>
       {links.map((link) => (
-        <div className="z-72 ">
+        <div className="z-50   ">
           <div className=" text-left md:cursor-pointer group ">
             <h1
               className=" flex justify-between items-center hover:text-cyan-600  md:pr-0 pr-5 group"
