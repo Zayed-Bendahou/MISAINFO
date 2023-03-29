@@ -55,8 +55,10 @@ function App() {
   console.log(data);
   return (
     <Router>
-      <Header />
       <div className="App">
+        <div className="fixed z-20 ">
+          <Header />
+        </div>
         <div className="content">
           <Routes>
             <Route exact path="/">

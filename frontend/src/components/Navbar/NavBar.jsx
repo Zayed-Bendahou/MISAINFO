@@ -19,8 +19,8 @@ const NavBar = () => {
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
         </div>
-        <ul className=" md:flex hidden text-xl px-36 py-4 border-t border-gray-300 ">
-          <li className="flex ">
+        <div className=" md:flex hidden text-xl px-36 py-7 border-t border-gray-300 ">
+          <div className="flex justify-around w-full ">
             <Link to="/Devis" className="z-50 ">
               <NavLinks />
             </Link>
@@ -53,8 +53,8 @@ const NavBar = () => {
                 <Button />
               </Link>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
 
         {/* Mobile Nav  */}
         <ul

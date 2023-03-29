@@ -6,7 +6,7 @@ const CarouselMain = () => {
       <div className="ml-4 pb-2 -mb-16 mt-12 border-b border-stone-400">
         <h3 className="text-2xl font-semibold">Produits Populaires :</h3>
       </div>
-      <div className="-ml-6">
+      <div className="-ml-6 z-10">
         <Carouselcontainer />
       </div>
     </div>

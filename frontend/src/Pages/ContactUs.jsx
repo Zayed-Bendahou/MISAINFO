@@ -27,7 +27,7 @@ export const ContactUs = () => {
   };
   return (
     <div class="bg">
-      <div className="w-full h-full ">
+      <div className="w-full h-full mt-48  ">
         <div className=" md:p-6 w-full min-h-screen justify-center items-center ">
           <div className="flex flex-col md:flex-row md:space-x-10 md:space-y-0 space-y-6 bg-cyan-700 w-full max-w-4xl p-6 rounded-xl shadow-lg text-white ">
             <div className="bg-white rounded-xl shadow-lg p-10 text-gray-600 md:w-full ">

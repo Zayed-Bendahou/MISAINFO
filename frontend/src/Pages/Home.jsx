@@ -9,7 +9,9 @@ import Brands from '../components/Home/Brands/Carouselbrands';
 const Home = () => {
   return (
     <>
-      <Slider />
+      <div className="mt-48">
+        <Slider />
+      </div>
       <Servicebanner />
       <div className="mx-[5%]">
         <CarouselMain />

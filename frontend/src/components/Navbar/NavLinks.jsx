@@ -153,14 +153,14 @@ const NavLinks = () => {
                           </h1>
                         </Link>
                         {mysublinks.sublink.map((slink) => (
-                          <li className="text-sm text-gray-600  my-2">
+                          <div className="text-sm text-gray-600  my-2">
                             <Link
                               to={slink.link}
                               className="hover:text-cyan-600"
                             >
                               {slink.name}
                             </Link>
-                          </li>
+                          </div>
                         ))}
                       </div>
                     ))}
