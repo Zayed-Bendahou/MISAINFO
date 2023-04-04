@@ -20,35 +20,35 @@ const NavBar = () => {
           </div>
         </div>
         <div className=" md:flex hidden text-xl px-36 py-7 border-t border-gray-300 ">
-          <div className="flex justify-around w-full ">
+          <div className="flex justify-between w-full  ">
             <Link to="/Devis" className="z-50 ">
               <NavLinks />
             </Link>
             <Link
               to="/"
-              className="  ml-8 mr-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4 "
+              className="  uppercase hover:text-cyan-600 hover:underline hover:underline-offset-4 "
             >
               Accueil
             </Link>
             <Link
               to="/Promo"
-              className=" mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+              className=" uppercase hover:text-cyan-600 hover:underline hover:underline-offset-4"
             >
               Promotions %
             </Link>
             <Link
               to="/"
-              className="mx-4 px-3 hover:text-cyan-600 hover:underline hover:underline-offset-4"
+              className=" uppercase hover:text-cyan-600 hover:underline hover:underline-offset-4"
             >
               À propos
             </Link>
             <Link
               to="/Contact"
-              className=" mx-10 pr-1  hover:text-cyan-600 hover:underline hover:underline-offset-4"
+              className=" uppercase hover:text-cyan-600 hover:underline hover:underline-offset-4"
             >
               Contactez-nous
             </Link>
-            <div className="md:block hidden text-base ml-12 px-4 -mt-1">
+            <div className="md:block hidden text-base  -mt-1">
               <Link to="/Devis">
                 <Button />
               </Link>

@@ -6,7 +6,7 @@ const NavLinks = () => {
   const [subHeading, setSubHeading] = useState('');
   const links = [
     {
-      name: 'Tous les produits',
+      name: 'TOUS LES PRODUITS',
       submenu: true,
       sublinks: [
         {

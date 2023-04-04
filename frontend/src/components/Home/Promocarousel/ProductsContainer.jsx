@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const ProductsContainer = () => {
   return (
     <div className="my-20">
-      <div className="flex flex-row justify-between pb-2 mx-10 my-5 border-b border-stone-400">
+      <div className="flex flex-row justify-between pb-2 mx-10  border-b border-stone-400">
         <Link className=" text-2xl font-semibold " to="/">
           Promotions:
         </Link>
@@ -26,7 +26,7 @@ export const ProductsContainer = () => {
           </svg>
         </Link>
       </div>
-      <div className="grid grid-flow-row grid-cols-1 md:grid-clos-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mx-5">
+      <div className="mr-7">
         <ProductContainerData />
       </div>
     </div>

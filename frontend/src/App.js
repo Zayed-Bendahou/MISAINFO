@@ -56,7 +56,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className="fixed z-20 ">
+        <div className="fixed z-20 w-full ">
           <Header />
         </div>
         <div className="content">

@@ -1,9 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../components/Assets/bg.css';
 export const Devis = () => {
+  const Result = () => {
+    return <p>Votre message a été envoyé.</p>;
+  };
   const form = useRef();
-
+  const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,6 +25,8 @@ export const Devis = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
+    showResult(true);
   };
   return (
     <div class="bg">
@@ -137,9 +142,12 @@ export const Devis = () => {
                   ></textarea>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <label className="italic">
+                  {/* <label className="italic">
                     <span className="text-red-500">*</span> Requis
-                  </label>
+                  </label> */}
+                  <div className="italic text-sm py-2 pl-10 text-red-500">
+                    {result ? <Result /> : null}
+                  </div>
                   <button
                     className=" inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 hover:bg-teal-500"
                     type="submit"
